@@ -1,0 +1,88 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "wiki-en-passages-20210101",
+  "dataset_size": 15790074105,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/vocab-transformers/wiki-en-passages-20210101@7aa770fdd6a2639befc2867f7feadfc4a791db41/train.jsonl.gz": {
+      "num_bytes": 5443521832,
+      "checksum": null
+    }
+  },
+  "download_size": 5443521832,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "views": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "langs": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 21233595937,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 15790074105,
+      "num_examples": 38080804,
+      "shard_lengths": [
+        923015,
+        951115,
+        985369,
+        1006801,
+        1036730,
+        1045220,
+        1057885,
+        1078293,
+        1096022,
+        1098994,
+        1120789,
+        1131570,
+        1146285,
+        1164384,
+        1174762,
+        1190270,
+        1203842,
+        1224661,
+        1238967,
+        1251241,
+        1312675,
+        1308978,
+        1431028,
+        1435505,
+        1451116,
+        1432903,
+        1425672,
+        1427374,
+        1471591,
+        1418290,
+        1412686,
+        426771
+      ],
+      "dataset_name": "wiki-en-passages-20210101"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
