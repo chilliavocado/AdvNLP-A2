@@ -1,0 +1,1 @@
+python -m pyserini.search.faiss --index wikipedia-dpr-100w-slim --topics dpr-nq-test --encoded-queries dpr_multi-nq-test --output runs/run.encoded.dpr.nq-test.multi.trec --batch-size 512 --threads 16

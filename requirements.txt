@@ -1,0 +1,7 @@
+transformers 
+torch 
+pyserini
+faiss-cpu
+datasets
+rank_bm25
+regex
